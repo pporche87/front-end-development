@@ -2,7 +2,10 @@
 
 ### Intermediate Front-End Development Projects 
 
-* Build a Random Quote Machine 
+* Build a Random Quote Machine
+
+Instead of building a random quote machine, I built a random tarot card generator. I used the first 22 cards in the Osho Zen Tarot deck to set up my data, and included the first sentence description as well as an image of the card. 
+   
 * Show the Local Weather 
 * Build a Wikipedia Viewer
 * Use the Twitch.tv JSON API
@@ -11,5 +14,5 @@
 
 * Build a JavaScript Calculator 
 * Build a Pomodoro Clock 
-* Build a Tic Tac Toe Game 
+* Build a Tic Tac Toe Game [done - webdevbootcamp]
 * Build a Simon Game 
