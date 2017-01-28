@@ -10,6 +10,8 @@ Instead of building a random quote machine, I built a random tarot card generato
 * Build a Wikipedia Viewer
 * Use the Twitch.tv JSON API
 
+There were some issues with the API changing and being restricted to some routes without an API key. 
+
 ### Advanced Front-End Development Projects
 
 * Build a JavaScript Calculator 
