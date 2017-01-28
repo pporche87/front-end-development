@@ -6,31 +6,19 @@
     <link rel="stylesheet" href="styles.css" type="text/css" />
     </head>
     <body>
-    <!--<div id="image">-->
-    <!--    <img src="" />-->
-    <!--</div>-->
-    <h1>Random Osho Zen Tarot Generator</h1>
-    <div id="app" class="container">
-    <div class="row">
-        <div class="col-md-2">
+    <div class="container" id="content">
+        <div id="headertext">
+            <h1>Wikipedia API Seach</h1>
+            <h4>Front End Development Project - Patrick Porche</h4>
+            <a href ="https://en.wikipedia.org/wiki/Special:Random" target="blank">Explore Wikipedia</a>
         </div>
-            <div class="col-md-8">
-                
-                    <h3 id="cardname"></h2>
-                    <hr>
-                    <div id="image"></div>
-                    <hr>
-                    <h4>"<span id="commentary"></span>"</h4>
-                    <button id="share-quote" class="btn btn-info">Share on Twitter</button>
-                    <hr>
-                    <button class="btn btn-default" id="generator">New Card!</button>
-                    
-                </div>  
+        <input class="form-control" id="searchTerm" />
+        <button id="search" type="button" class="btn btn-button btn-block">Submit</button>
+        <ul id="output">
             
-        <div class="col-md-2">
-        </div>
-    </div>    
+        </ul>
     </div>
+    
     
     <script type="text/javascript" src="jquery-3.1.1.js"></script>
     <script type="text/javascript" src="app.js"></script>

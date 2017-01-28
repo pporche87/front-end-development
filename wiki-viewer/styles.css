@@ -1,16 +1,23 @@
-.btn-default {
-    background: #000;
-    color: #fff;
-    font-weight: bold;
-}
-.container {
-    margin: 0 auto;
+body {
     text-align: center;
 }
-#commentary {
-    font-style: italic;
+
+#content {
+    margin-top: 10px;
 }
-h1 {
-    font-size: 3em;
-    text-align: center;
+
+#searchTerm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+}
+
+li {
+    border: solid 1px black;
+    margin-top: 5px;
+    margin-bottom: 5px
 }
