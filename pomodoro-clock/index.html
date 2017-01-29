@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pomodoro Clock</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    </head>
+    <body>
+        <audio id="buzzer" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpg"></audio>
+        <div class="container text-center" id="clock">
+            <div id="calculator">
+                <h1>Pomodoro Clock</h1>
+                <h3>Front End Web Development Project - Patrick Porche</h3>
+            </div>
+            <div id="timeDiv">
+                <h3 id="sessionTime">Session Time</h3>
+                <h2 id="timeType"></h2>
+                <a href="#" class="btn btn-primary" id="subTime">-</a>
+                <h2 id="timeInc">   5  </h2>
+                <a href="#" class="btn btn-primary" id="addTime">+</a>
+                <a href="#" class="btn btn-danger" id="reset">Reset</a>
+            </div>
+            <div id="breakDiv">
+                <h3 id="breakTime">Break Time</h3>
+                <a href="#" class="btn btn-primary" id="subBreakTime">-</a>
+                <h2 id="breakTimeInc">  5  </h2>
+                <a href="#" class="btn btn-primary" id="addBreakTime">+</a>
+            </div>
+            <a href="#" class="btn btn-danger" id="start">Start</a>
+        </div>
+    <script type="text/javascript" src="jquery-3.1.1.js"></script>    
+    <script type="text/javascript" src="app.js"></script>    
+    </body>
+</html>

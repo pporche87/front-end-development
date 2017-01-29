@@ -15,6 +15,12 @@ There were some issues with the API changing and being restricted to some routes
 ### Advanced Front-End Development Projects
 
 * Build a JavaScript Calculator 
+
+I added both a JavaScript Calculator according to FCC recommendations (doesn't take into acount order of operations). I also added a Tip Calculator I build in another program I was working on. 
+
 * Build a Pomodoro Clock 
+
+This would be a great project to refactor. I followed along with this project and see some great opportunities to break this code down into modular reusable portions. There is a fair amount of duplication. 
+
 * Build a Tic Tac Toe Game [done - webdevbootcamp]
 * Build a Simon Game 
